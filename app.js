@@ -8,10 +8,7 @@ app.use(bodyParser.urlencoded({extended : true}));
 
 // When request comes from the client
 app.get("/",function(req,res){
-
   res.sendFile(__dirname+"/index.html");
-
-
 });
 
 //Manipulating recived data which is recived by client
